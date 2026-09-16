@@ -175,10 +175,11 @@ python3 scripts/match-experts.py \
 
 #### Flash
 
-1. 从 `brain-crew/flash-profiles.md` 加载入选专家的速记人格。
-2. 基于速记与 Registry 元数据演绎，不扩展为完整人格。
-3. 会议信息中标注“Flash：速记人格演绎，非完整人格”。
-4. 速记缺失时使用 fallback 并披露；只有“全部 Pro 完整人格缺失”触发暂停确认。
+1. 使用匹配结果和已确认名单中的 Registry `id` 标识本轮实际发言专家；淬火阶段新增的挑刺专家同样按其 Registry `id` 处理。
+2. 对每位实际发言专家，只用宿主读取能力打开 `brain-crew/flash-profiles/<id>.md`；不得扫描全部 Flash 文件或加载未发言专家的人格。
+3. 基于速记与 Registry 元数据演绎，不扩展为完整人格。
+4. 会议信息中标注“Flash：速记人格演绎，非完整人格”。
+5. 速记缺失时使用 fallback 并披露；只有“全部 Pro 完整人格缺失”触发暂停确认。
 
 人格加载是宿主读取行为，不增加资源预检状态机。
 

@@ -37,7 +37,7 @@ git clone https://github.com/nico-zhuang/ask-five-pro.git
 ```text
 SKILL.md                              完整规范性工作流
 brain-crew/expert-registry.json       唯一专家 Registry
-brain-crew/flash-profiles.md          Flash 人格速记
+brain-crew/flash-profiles/<id>.md     按 Registry ID 独立存放的 Flash 人格速记
 brain-crew/packs/                     40 位专家完整人格
 scripts/boundary-guard.py             边界检查
 scripts/match-experts.py              根 Skill 的匹配入口

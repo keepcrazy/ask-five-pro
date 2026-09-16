@@ -24,9 +24,7 @@
         "品牌表达",
         "聚焦即说不"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "zhang-yiming",
@@ -50,9 +48,7 @@
         "全球化",
         "算法思维"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "charlie-munger",
@@ -76,9 +72,7 @@
         "跨学科模型",
         "能力圈"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "paul-graham",
@@ -102,9 +96,7 @@
         "人生选择",
         "反共识"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "richard-feynman",
@@ -128,9 +120,7 @@
         "教学表达",
         "理解力检测"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "elon-musk",
@@ -154,9 +144,7 @@
         "工程决策",
         "白痴指数"
       ],
-      "sensitivity": "normal",
-      "default_enabled": true,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "mrbeast",
@@ -180,9 +168,7 @@
         "增长实验",
         "YouTube 策略"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "david-ogilvy",
@@ -206,9 +192,7 @@
         "消费者研究",
         "品牌形象"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "gwtb-strategist",
@@ -232,9 +216,7 @@
         "品牌叙事",
         "传播战役"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "luxun",
@@ -258,9 +240,7 @@
         "语言锋利度",
         "文化批评"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "guodegang",
@@ -284,9 +264,7 @@
         "语言艺术",
         "临场反应"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "x-mastery-mentor",
@@ -310,9 +288,7 @@
         "社区互动",
         "观点输出"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "naval-ravikant",
@@ -336,9 +312,7 @@
         "长期思维",
         "欲望管理"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "douyin-xhs-operator",
@@ -365,9 +339,7 @@
         "爆款选题",
         "内容标签"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "private-domain-operator",
@@ -394,9 +366,7 @@
         "引流加粉",
         "朋友圈运营"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "livestream-commerce-operator",
@@ -423,9 +393,7 @@
         "店播",
         "达播"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "andrej-karpathy",
@@ -449,9 +417,7 @@
         "技术教育",
         "AI 产品化"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "ilya-sutskever",
@@ -475,9 +441,7 @@
         "超级智能",
         "对齐问题"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "rob-pike",
@@ -501,9 +465,7 @@
         "Unix 哲学",
         "Go 语言"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "warren-buffett",
@@ -527,9 +489,7 @@
         "资本配置",
         "长期持有"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "sigmund-freud",
@@ -553,9 +513,7 @@
         "动机分析",
         "认知配置"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "qiushi",
@@ -579,9 +537,7 @@
         "证据链",
         "问题导向"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "nassim-taleb",
@@ -605,9 +561,7 @@
         "尾部风险",
         "不确定性"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "donald-trump",
@@ -631,9 +585,7 @@
         "利益交换",
         "舆论操控"
       ],
-      "sensitivity": "sensitive",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "sensitive"
     },
     {
       "id": "zhang-xuefeng",
@@ -657,9 +609,7 @@
         "实用主义",
         "情绪触发"
       ],
-      "sensitivity": "sensitive",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "sensitive"
     },
     {
       "id": "darwin",
@@ -683,9 +633,7 @@
         "Validation",
         "Rubric"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "huashu-agent-swarm",
@@ -709,9 +657,7 @@
         "自组织",
         "Git 协作"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "huashu-nuwa",
@@ -735,9 +681,7 @@
         "造 Skill",
         "Persona"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "jeff-bezos",
@@ -761,9 +705,7 @@
         "运营飞轮",
         "亚马逊领导力原则"
       ],
-      "sensitivity": "normal",
-      "version": "1.0.0",
-      "default_enabled": false
+      "sensitivity": "normal"
     },
     {
       "id": "kazuo-inamori",
@@ -787,9 +729,7 @@
         "人生方程式",
         "团队激励"
       ],
-      "sensitivity": "normal",
-      "version": "1.0.0",
-      "default_enabled": false
+      "sensitivity": "normal"
     },
     {
       "id": "wang-yangming",
@@ -813,9 +753,7 @@
         "事上磨练",
         "逆境突围"
       ],
-      "sensitivity": "normal",
-      "version": "1.0.0",
-      "default_enabled": false
+      "sensitivity": "normal"
     },
     {
       "id": "duan-yongping",
@@ -839,9 +777,7 @@
         "平常心",
         "商业模式"
       ],
-      "sensitivity": "normal",
-      "version": "1.0.0",
-      "default_enabled": false
+      "sensitivity": "normal"
     },
     {
       "id": "pricing-analyst",
@@ -867,9 +803,7 @@
         "心理定价",
         "价格战"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "supply-chain-strategist",
@@ -896,9 +830,7 @@
         "供应商管理",
         "备货"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "jensen-huang",
@@ -922,9 +854,7 @@
         "软硬一体",
         "开发者体系"
       ],
-      "sensitivity": "normal",
-      "version": "1.0.0",
-      "default_enabled": false
+      "sensitivity": "normal"
     },
     {
       "id": "socrates",
@@ -948,9 +878,7 @@
         "逻辑检验",
         "价值观审视"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "sun-tzu",
@@ -974,9 +902,7 @@
         "资源效率",
         "风险感知"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "lei-jun",
@@ -1000,9 +926,7 @@
         "极致性价比",
         "生态协同"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "zhang-xiaolong",
@@ -1026,9 +950,7 @@
         "自然流设计",
         "善良比聪明重要"
       ],
-      "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0"
+      "sensitivity": "normal"
     },
     {
       "id": "ai-product-manager",
@@ -1055,8 +977,6 @@
         "人机分工"
       ],
       "sensitivity": "normal",
-      "default_enabled": false,
-      "version": "1.0.0",
       "path": "packs/tech/ai-product-manager/SKILL.md"
     }
   ]

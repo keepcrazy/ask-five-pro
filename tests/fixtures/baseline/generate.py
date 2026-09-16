@@ -270,7 +270,7 @@ def migration_for(path: str) -> dict:
         "brain-crew/docs/ask-five-engine-integration-prompt.md": ("delete", None, "obsolete Engine-only integration material"),
         "references/parliament-mode-templates.md": ("rewrite", "references/mode-templates.md", "relocate and align six-mode templates with approved decisions 10 and 19-23"),
         "references/output-example.md": ("rewrite", "references/output-examples.md", "relocate and align the non-normative example with approved decisions 19-20"),
-        "references/flash-profiles.md": ("move", "brain-crew/flash-profiles.md", "expert profiles belong with Brain Crew assets"),
+        "references/flash-profiles.md": ("rewrite", "brain-crew/flash-profiles", "split Flash profiles by stable Registry id for selective host loading"),
         "references/EXPERT_SKILL_SPEC.md": ("rewrite", "brain-crew/docs/expert-skill-spec.md", "relocate and align the contract with approved decisions 1-5 and portable Registry paths"),
         "references/matching-algorithm.md": ("rewrite", "brain-crew/docs/matching-algorithm.md", "relocate and align matching documentation with approved decisions 6-14"),
         "references/artifact-templates.md": ("merge", "references/mode-templates.md", "mode material is consolidated"),

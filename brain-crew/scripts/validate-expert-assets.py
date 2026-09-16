@@ -159,12 +159,31 @@ def validate(
             if current.read_bytes() != expected:
                 errors.append(f"{expert_id}: source asset differs: {suffix}")
 
-    profile_path = BRAIN_CREW_DIR / "flash-profiles.md"
-    try:
-        profile_ids = flash_ids(profile_path)
-    except OSError as exc:
-        errors.append(f"cannot read Flash profiles: {exc}")
-        profile_ids = []
+    profile_dir = registry_path.parent / "flash-profiles"
+    profile_ids: list[str] = []
+    if not profile_dir.is_dir():
+        errors.append(f"Flash profile directory not found: {profile_dir}")
+    else:
+        for profile_path in sorted(profile_dir.rglob("*.md")):
+            if profile_path.parent != profile_dir:
+                errors.append(f"nested Flash profile is not allowed: {profile_path}")
+            try:
+                ids_in_file = flash_ids(profile_path)
+            except OSError as exc:
+                errors.append(f"cannot read Flash profile {profile_path}: {exc}")
+                continue
+            if len(ids_in_file) != 1:
+                errors.append(
+                    f"Flash profile must contain exactly one expert id: {profile_path}"
+                )
+                continue
+            profile_id = ids_in_file[0]
+            profile_ids.append(profile_id)
+            if profile_path.stem != profile_id:
+                errors.append(
+                    f"Flash profile filename/id mismatch: "
+                    f"{profile_path.name} contains {profile_id}"
+                )
     missing_profiles = sorted(set(ids) - set(profile_ids))
     orphan_profiles = sorted(set(profile_ids) - set(ids))
     duplicate_profiles = sorted(

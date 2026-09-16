@@ -724,9 +724,9 @@
     },
     {
       "source": "references/flash-profiles.md",
-      "action": "move",
-      "target": "brain-crew/flash-profiles.md",
-      "reason": "expert profiles belong with Brain Crew assets"
+      "action": "rewrite",
+      "target": "brain-crew/flash-profiles",
+      "reason": "split Flash profiles by stable Registry id for selective host loading"
     },
     {
       "source": "references/matching-algorithm.md",

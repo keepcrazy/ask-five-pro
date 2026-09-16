@@ -53,7 +53,8 @@ class RegistryContractTests(unittest.TestCase):
 
     def test_registry_fields_are_normalized(self) -> None:
         for expert in self.experts:
-            self.assertIn("default_enabled", expert)
+            self.assertNotIn("default_enabled", expert)
+            self.assertNotIn("version", expert)
             self.assertNotIn("bundled", expert)
             path = Path(expert["path"])
             self.assertFalse(path.is_absolute())
@@ -67,22 +68,7 @@ class RegistryContractTests(unittest.TestCase):
                 text=True,
             )
         )
-        missing_defaults = [
-            expert["id"]
-            for expert in baseline["experts"]
-            if "default_enabled" not in expert
-        ]
         bundled_count = sum("bundled" in expert for expert in baseline["experts"])
-        self.assertEqual(
-            [
-                "jeff-bezos",
-                "kazuo-inamori",
-                "wang-yangming",
-                "duan-yongping",
-                "jensen-huang",
-            ],
-            missing_defaults,
-        )
         self.assertEqual(6, bundled_count)
 
         expected = json.loads(json.dumps(baseline))
@@ -90,7 +76,8 @@ class RegistryContractTests(unittest.TestCase):
             prefix = "<runtime-skills-dir>/brain-crew/"
             if expert["path"].startswith(prefix):
                 expert["path"] = expert["path"][len(prefix):]
-            expert.setdefault("default_enabled", False)
+            expert.pop("default_enabled", None)
+            expert.pop("version", None)
             expert.pop("bundled", None)
         self.assertEqual(expected, self.data)
 

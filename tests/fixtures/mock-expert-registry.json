@@ -23,7 +23,6 @@
         "技术债"
       ],
       "path": "mock-experts/mock-cto/SKILL.md",
-      "default_enabled": false,
       "sensitivity": "normal"
     },
     {
@@ -48,7 +47,6 @@
         "用户洞察"
       ],
       "path": "mock-experts/mock-cmo/SKILL.md",
-      "default_enabled": false,
       "sensitivity": "normal"
     },
     {
@@ -73,7 +71,6 @@
         "MVP"
       ],
       "path": "mock-experts/mock-product-lead/SKILL.md",
-      "default_enabled": false,
       "sensitivity": "normal"
     },
     {
@@ -98,7 +95,6 @@
         "不确定性"
       ],
       "path": "mock-experts/mock-risk-officer/SKILL.md",
-      "default_enabled": false,
       "sensitivity": "normal"
     }
   ]

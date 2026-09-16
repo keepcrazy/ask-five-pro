@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -16,6 +17,57 @@ VALIDATOR = ROOT / "brain-crew" / "scripts" / "validate-expert-assets.py"
 
 
 class ExpertAssetTests(unittest.TestCase):
+    def test_flash_profiles_are_keyed_by_registry_id(self) -> None:
+        registry = json.loads(
+            (ROOT / "brain-crew" / "expert-registry.json").read_text(encoding="utf-8")
+        )
+        expected_ids = {item["id"] for item in registry["experts"]}
+        profile_dir = ROOT / "brain-crew" / "flash-profiles"
+        profile_files = sorted(profile_dir.glob("*.md"))
+        self.assertFalse((ROOT / "brain-crew" / "flash-profiles.md").exists())
+        self.assertEqual(expected_ids, {path.stem for path in profile_files})
+        self.assertEqual(40, len(profile_files))
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        self.assertIn("brain-crew/flash-profiles/<id>.md", skill)
+        self.assertNotIn("brain-crew/flash-profiles.md", skill)
+        for path in profile_files:
+            ids = re.findall(
+                r"^### .+（([^）]+)）$",
+                path.read_text(encoding="utf-8"),
+                re.MULTILINE,
+            )
+            self.assertEqual([path.stem], ids, path)
+
+    def test_flash_profile_filename_id_mismatch_fails_the_gate(self) -> None:
+        with tempfile.TemporaryDirectory() as raw_tmp:
+            copied = Path(raw_tmp) / "brain-crew"
+            shutil.copytree(ROOT / "brain-crew", copied)
+            registry = json.loads(
+                (copied / "expert-registry.json").read_text(encoding="utf-8")
+            )
+            expert_id = registry["experts"][0]["id"]
+            profile = copied / "flash-profiles" / f"{expert_id}.md"
+            profile.write_text(
+                profile.read_text(encoding="utf-8").replace(
+                    f"（{expert_id}）", "（wrong-id）", 1
+                ),
+                encoding="utf-8",
+            )
+            completed = subprocess.run(
+                [
+                    sys.executable,
+                    str(VALIDATOR),
+                    "--registry",
+                    str(copied / "expert-registry.json"),
+                    "--installed-only",
+                ],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            )
+        self.assertNotEqual(0, completed.returncode)
+        self.assertIn("filename/id mismatch", completed.stdout)
+
     def test_full_source_comparison_passes(self) -> None:
         completed = subprocess.run(
             [sys.executable, str(VALIDATOR)],

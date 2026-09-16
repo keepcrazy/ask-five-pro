@@ -4,7 +4,7 @@
     {"id": 1, "topic": "duplicate registries", "result": "keep brain-crew/expert-registry.json only"},
     {"id": 2, "topic": "legacy registry compatibility", "result": "delete old file, backup, redirects and wrappers"},
     {"id": 3, "topic": "expert identifiers", "result": "machine id, skill/frontmatter name and display name remain distinct"},
-    {"id": 4, "topic": "missing default_enabled", "result": "set five missing values to false"},
+    {"id": 4, "topic": "unused registry fields", "result": "remove default_enabled and version from every expert entry"},
     {"id": 5, "topic": "bundled field", "result": "remove from the registry without editing expert source files"},
     {"id": 6, "topic": "root matching entrypoint", "result": "keep scripts/match-experts.py"},
     {"id": 7, "topic": "query scoring copy", "result": "keep public functions and use a thin adapter"},
