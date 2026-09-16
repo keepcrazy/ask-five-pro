@@ -1,0 +1,66 @@
+{
+  "baseline": "4627911",
+  "stages": [
+    {
+      "stage": "depth_routing",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:197-207"
+    },
+    {
+      "stage": "meeting_mode_routing",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:209-224"
+    },
+    {
+      "stage": "boundary_classification",
+      "baseline_owner": "scripts/boundary-guard.py",
+      "target_owner": "scripts/boundary-guard.py",
+      "evidence": "4627911:SKILL.md:226-242"
+    },
+    {
+      "stage": "topic_category_and_constraints",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:244-262"
+    },
+    {
+      "stage": "expert_scoring_and_ranking",
+      "baseline_owner": "scripts/match-experts.py",
+      "target_owner": "scripts/match-experts.py-via-shared-core",
+      "evidence": "4627911:SKILL.md:264-274",
+      "approved_decisions": [6, 7, 8, 9, 11]
+    },
+    {
+      "stage": "conditional_roster_confirmation",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:276-283"
+    },
+    {
+      "stage": "persona_loading_and_fallback",
+      "baseline_owner": "root-skill-and-host-read-capability",
+      "target_owner": "root-skill-and-host-read-capability",
+      "evidence": "4627911:SKILL.md:285-300"
+    },
+    {
+      "stage": "meeting_and_persona_performance",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:302-330"
+    },
+    {
+      "stage": "consensus_and_seven_part_output",
+      "baseline_owner": "root-skill-and-host-model",
+      "target_owner": "root-skill-and-host-model",
+      "evidence": "4627911:SKILL.md:302-338"
+    },
+    {
+      "stage": "regression_and_asset_validation",
+      "baseline_owner": "offline-tests-and-validation-tools",
+      "target_owner": "offline-tests-and-validation-tools",
+      "evidence": "approved refactor scope"
+    }
+  ]
+}

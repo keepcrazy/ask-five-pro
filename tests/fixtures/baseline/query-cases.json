@@ -1,0 +1,82 @@
+{
+  "baseline": "4627911",
+  "cases": [
+    {
+      "id": "consensus",
+      "categories": [
+        "内容",
+        "增长"
+      ],
+      "tags": [
+        "短视频",
+        "矩阵"
+      ],
+      "mode": "consensus",
+      "result": [
+        {
+          "id": "mrbeast",
+          "score": 7,
+          "reason": "覆盖增长/内容视角"
+        },
+        {
+          "id": "x-mastery-mentor",
+          "score": 3,
+          "reason": "覆盖内容视角"
+        },
+        {
+          "id": "douyin-xhs-operator",
+          "score": 3,
+          "reason": "覆盖增长视角"
+        },
+        {
+          "id": "jeff-bezos",
+          "score": 2,
+          "reason": "风格匹配"
+        },
+        {
+          "id": "zhang-yiming",
+          "score": 1.3,
+          "reason": "风格匹配"
+        }
+      ]
+    },
+    {
+      "id": "debate-sensitive",
+      "categories": [
+        "谈判",
+        "权力"
+      ],
+      "tags": [
+        "舆论操控"
+      ],
+      "mode": "debate",
+      "result": [
+        {
+          "id": "elon-musk",
+          "score": 1.3,
+          "reason": "风格匹配"
+        },
+        {
+          "id": "steve-jobs",
+          "score": 0.3,
+          "reason": "风格匹配"
+        },
+        {
+          "id": "zhang-yiming",
+          "score": 0.3,
+          "reason": "风格匹配"
+        },
+        {
+          "id": "charlie-munger",
+          "score": 0.3,
+          "reason": "风格匹配"
+        },
+        {
+          "id": "paul-graham",
+          "score": 0.3,
+          "reason": "风格匹配"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "baseline": "4627911",
+  "source_file_count": 145,
+  "entries": [
+    {
+      "source": "README.md",
+      "action": "rewrite",
+      "target": "README.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "SKILL.md",
+      "action": "rewrite",
+      "target": "SKILL.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/CONTRIBUTING.md",
+      "action": "rewrite",
+      "target": "brain-crew/CONTRIBUTING.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/EXPERT_CRITERIA.md",
+      "action": "rewrite",
+      "target": "brain-crew/EXPERT_CRITERIA.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/README.md",
+      "action": "rewrite",
+      "target": "brain-crew/README.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/SKILL.md",
+      "action": "rewrite",
+      "target": "brain-crew/SKILL.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/docs/ask-five-engine-integration-prompt.md",
+      "action": "delete",
+      "target": null,
+      "reason": "obsolete Engine-only integration material"
+    },
+    {
+      "source": "brain-crew/docs/overlap-matrix.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew-docs/overlap-matrix.md",
+      "reason": "historical overlap report"
+    },
+    {
+      "source": "brain-crew/docs/pack-recommendation.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew-docs/pack-recommendation.md",
+      "reason": "historical pack recommendation"
+    },
+    {
+      "source": "brain-crew/expert-registry.json",
+      "action": "rewrite",
+      "target": "brain-crew/expert-registry.json",
+      "reason": "apply approved decisions 4-5 and portable package-relative paths"
+    },
+    {
+      "source": "brain-crew/packs/brand/douyin-xhs-operator/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/douyin-xhs-operator/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/guodegang-skills/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/guodegang-skills/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/gwtb-brand-strategy/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/gwtb-brand-strategy/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/livestream-commerce-operator/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/livestream-commerce-operator/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/luxun-skill/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/luxun-skill/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/mrbeast-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/mrbeast-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/naval-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/naval-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/ogilvy-social-listening/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/ogilvy-social-listening/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/private-domain-operator/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/private-domain-operator/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/brand/x-mastery-mentor/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/brand/x-mastery-mentor/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/elon-musk-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/elon-musk-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/feynman-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/feynman-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/munger-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/munger-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/paul-graham-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/paul-graham-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/steve-jobs-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/steve-jobs-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/core/zhang-yiming-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/core/zhang-yiming-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/bezos-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/bezos-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/buffett-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/buffett-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/duan-yongping-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/duan-yongping-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/freud-skill/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/freud-skill/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/inamori-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/inamori-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/pricing-analyst/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/pricing-analyst/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/qiushi-skill/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/qiushi-skill/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/qiushi-skill/investigation-agent-prompt.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/qiushi-skill/investigation-agent-prompt.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/qiushi-skill/original-texts.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/qiushi-skill/original-texts.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/supply-chain-strategist/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/supply-chain-strategist/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/taleb-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/taleb-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/trump-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/trump-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/wangyangming-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/wangyangming-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/enterprise/zhangxuefeng-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/enterprise/zhangxuefeng-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/extension/README.md",
+      "action": "rewrite",
+      "target": "brain-crew/packs/extension/README.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "brain-crew/packs/meta/darwin-skill/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/darwin-skill/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/huashu-agent-swarm/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/huashu-agent-swarm/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/huashu-nuwa/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/huashu-nuwa/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/socrates-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/socrates-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/socrates-perspective/test-prompts.json",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/socrates-perspective/test-prompts.json",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/sun-tzu-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/sun-tzu-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/meta/sun-tzu-perspective/test-prompts.json",
+      "action": "keep",
+      "target": "brain-crew/packs/meta/sun-tzu-perspective/test-prompts.json",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/ai-product-manager/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/ai-product-manager/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/andrej-karpathy-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/andrej-karpathy-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/ilya-sutskever-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/ilya-sutskever-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/jensen-huang-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/jensen-huang-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/lei-jun-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/lei-jun-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/lei-jun-perspective/test-prompts.json",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/lei-jun-perspective/test-prompts.json",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/rob-pike-skill/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/rob-pike-skill/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/zhang-xiaolong-perspective/SKILL.md",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/zhang-xiaolong-perspective/SKILL.md",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/packs/tech/zhang-xiaolong-perspective/test-prompts.json",
+      "action": "keep",
+      "target": "brain-crew/packs/tech/zhang-xiaolong-perspective/test-prompts.json",
+      "reason": "preserved baseline asset"
+    },
+    {
+      "source": "brain-crew/scripts/auto-structure-enhance.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/auto-structure-enhance.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/benchmark.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/benchmark.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/brain_crew_query.py",
+      "action": "rewrite",
+      "target": "brain-crew/scripts/brain_crew_query.py",
+      "reason": "consolidate duplicate logic or replace stale validation"
+    },
+    {
+      "source": "brain-crew/scripts/check-registry.sh",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/check-registry.sh",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/compute-overlap-matrix.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/compute-overlap-matrix.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/darwin-quick-score.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/darwin-quick-score.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/diagnose-experts.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/diagnose-experts.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/evaluate-llm-outputs.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/evaluate-llm-outputs.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/final-polish-bottom10.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/final-polish-bottom10.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/refine-actionability.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/refine-actionability.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/remove-expert-disclaimers.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/remove-expert-disclaimers.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/run-critique-meeting.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/run-critique-meeting.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/run-real-prompt-tests.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/run-real-prompt-tests.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/scripts/test-engine-integration.py",
+      "action": "move",
+      "target": "tests/evidence/legacy-tools/test-engine-integration.py",
+      "reason": "legacy evaluation or mutation tool; not part of product runtime"
+    },
+    {
+      "source": "brain-crew/tests/llm-batch-test-report.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/llm-batch-test-report.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/llm-output-evaluation.json",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/llm-output-evaluation.json",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/new-experts/darwin-measured-results.json",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/new-experts/darwin-measured-results.json",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-meeting-test.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-meeting-test.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/andrej-karpathy_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/andrej-karpathy_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/charlie-munger_investment-decision.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/charlie-munger_investment-decision.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/charlie-munger_llm-pilot.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/charlie-munger_llm-pilot.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/darwin_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/darwin_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/david-ogilvy_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/david-ogilvy_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/donald-trump_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/donald-trump_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/duan-yongping_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/duan-yongping_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/elon-musk_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/elon-musk_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/guodegang_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/guodegang_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/gwtb-strategist_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/gwtb-strategist_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/huashu-agent-swarm_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/huashu-agent-swarm_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/huashu-nuwa_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/huashu-nuwa_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/ilya-sutskever_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/ilya-sutskever_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/jeff-bezos_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/jeff-bezos_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/jensen-huang_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/jensen-huang_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/kazuo-inamori_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/kazuo-inamori_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/luxun_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/luxun_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/mrbeast_content-ctr.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/mrbeast_content-ctr.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/mrbeast_llm-pilot.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/mrbeast_llm-pilot.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/nassim-taleb_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/nassim-taleb_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/naval-ravikant_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/naval-ravikant_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/paul-graham_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/paul-graham_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/qiushi_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/qiushi_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/richard-feynman_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/richard-feynman_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/rob-pike_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/rob-pike_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/sigmund-freud_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/sigmund-freud_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/steve-jobs_llm-pilot.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/steve-jobs_llm-pilot.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/steve-jobs_prod-strategy-priority.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/steve-jobs_prod-strategy-priority.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/wang-yangming_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/wang-yangming_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/warren-buffett_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/warren-buffett_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/x-mastery-mentor_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/x-mastery-mentor_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/zhang-yiming_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/zhang-yiming_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-outputs/zhangxuefeng_llm.md",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-outputs/zhangxuefeng_llm.md",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-prompt-test-results.json",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-prompt-test-results.json",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "brain-crew/tests/real-prompt-tests.json",
+      "action": "move",
+      "target": "tests/evidence/brain-crew/real-prompt-tests.json",
+      "reason": "historical LLM output or report"
+    },
+    {
+      "source": "decisions-log.md",
+      "action": "move",
+      "target": "tests/evidence/decisions-log.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "references/EXPERT_SKILL_SPEC.md",
+      "action": "rewrite",
+      "target": "brain-crew/docs/expert-skill-spec.md",
+      "reason": "relocate and align the contract with approved decisions 1-5 and portable Registry paths"
+    },
+    {
+      "source": "references/anti-patterns.md",
+      "action": "rewrite",
+      "target": "references/anti-patterns.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "references/artifact-templates.md",
+      "action": "merge",
+      "target": "references/mode-templates.md",
+      "reason": "mode material is consolidated"
+    },
+    {
+      "source": "references/ask-five-cheatsheet.md",
+      "action": "merge",
+      "target": "SKILL.md",
+      "reason": "normative workflow remains discoverable from the root Skill"
+    },
+    {
+      "source": "references/darwin-roadmap.md",
+      "action": "move",
+      "target": "tests/evidence/references/darwin-roadmap.md",
+      "reason": "historical evaluation material"
+    },
+    {
+      "source": "references/expert-fallback-profiles.md",
+      "action": "rewrite",
+      "target": "references/expert-fallback-profiles.md",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "references/expert-registry.json",
+      "action": "delete",
+      "target": null,
+      "reason": "replaced by the single Brain Crew registry"
+    },
+    {
+      "source": "references/expert-registry.json.bak",
+      "action": "delete",
+      "target": null,
+      "reason": "empty legacy backup is not a product asset"
+    },
+    {
+      "source": "references/failure-modes.md",
+      "action": "merge",
+      "target": "SKILL.md",
+      "reason": "failure handling remains normative"
+    },
+    {
+      "source": "references/flash-profiles.md",
+      "action": "move",
+      "target": "brain-crew/flash-profiles.md",
+      "reason": "expert profiles belong with Brain Crew assets"
+    },
+    {
+      "source": "references/matching-algorithm.md",
+      "action": "rewrite",
+      "target": "brain-crew/docs/matching-algorithm.md",
+      "reason": "relocate and align matching documentation with approved decisions 6-14"
+    },
+    {
+      "source": "references/output-example.md",
+      "action": "rewrite",
+      "target": "references/output-examples.md",
+      "reason": "relocate and align the non-normative example with approved decisions 19-20"
+    },
+    {
+      "source": "references/parliament-mode-templates.md",
+      "action": "rewrite",
+      "target": "references/mode-templates.md",
+      "reason": "relocate and align six-mode templates with approved decisions 10 and 19-23"
+    },
+    {
+      "source": "scripts/boundary-guard.py",
+      "action": "rewrite",
+      "target": "scripts/boundary-guard.py",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "scripts/check-experts.sh",
+      "action": "rewrite",
+      "target": "scripts/check-experts.sh",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "scripts/match-experts.py",
+      "action": "rewrite",
+      "target": "scripts/match-experts.py",
+      "reason": "consolidate duplicate logic or replace stale validation"
+    },
+    {
+      "source": "scripts/validate-expert.sh",
+      "action": "rewrite",
+      "target": "scripts/validate-expert.sh",
+      "reason": "remove conflicts while preserving product behavior"
+    },
+    {
+      "source": "test-prompts.json",
+      "action": "move",
+      "target": "tests/fixtures/workflow-prompts.json",
+      "reason": "active fixtures live under tests"
+    },
+    {
+      "source": "tests/brain-crew-integration-report.json",
+      "action": "move",
+      "target": "tests/evidence/brain-crew-integration-report.json",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/brain-crew-integration-test.py",
+      "action": "rewrite",
+      "target": "tests/brain-crew-integration-test.py",
+      "reason": "consolidate duplicate logic or replace stale validation"
+    },
+    {
+      "source": "tests/darwin-evaluation-baseline.md",
+      "action": "move",
+      "target": "tests/evidence/darwin-evaluation-baseline.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/darwin-evaluation-v2.md",
+      "action": "move",
+      "target": "tests/evidence/darwin-evaluation-v2.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/darwin-evaluation-v3.md",
+      "action": "move",
+      "target": "tests/evidence/darwin-evaluation-v3.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/empty-registry-test.md",
+      "action": "move",
+      "target": "tests/evidence/empty-registry-test.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/full-test-outputs.md",
+      "action": "move",
+      "target": "tests/evidence/full-test-outputs.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/mock-expert-registry.json",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-expert-registry.json",
+      "reason": "relocate the fixture and update its relative paths and approved Registry normalization"
+    },
+    {
+      "source": "tests/mock-expert-test.md",
+      "action": "move",
+      "target": "tests/evidence/mock-expert-test.md",
+      "reason": "historical result, not a current test"
+    },
+    {
+      "source": "tests/mock-expert/SKILL.md",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-expert/SKILL.md",
+      "reason": "relocate the fixture and replace obsolete Engine-only wording"
+    },
+    {
+      "source": "tests/mock-experts/mock-cmo/SKILL.md",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-experts/mock-cmo/SKILL.md",
+      "reason": "relocate the fixture and replace obsolete Engine-only wording"
+    },
+    {
+      "source": "tests/mock-experts/mock-cto/SKILL.md",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-experts/mock-cto/SKILL.md",
+      "reason": "relocate the fixture and replace obsolete Engine-only wording"
+    },
+    {
+      "source": "tests/mock-experts/mock-product-lead/SKILL.md",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-experts/mock-product-lead/SKILL.md",
+      "reason": "relocate the fixture and replace obsolete Engine-only wording"
+    },
+    {
+      "source": "tests/mock-experts/mock-risk-officer/SKILL.md",
+      "action": "rewrite",
+      "target": "tests/fixtures/mock-experts/mock-risk-officer/SKILL.md",
+      "reason": "relocate the fixture and replace obsolete Engine-only wording"
+    },
+    {
+      "source": "tests/run-full-test.sh",
+      "action": "rewrite",
+      "target": "tests/run-full-test.sh",
+      "reason": "consolidate duplicate logic or replace stale validation"
+    },
+    {
+      "source": "tests/validation-checklist-v2.0.5.md",
+      "action": "move",
+      "target": "tests/evidence/validation-checklist-v2.0.5.md",
+      "reason": "historical result, not a current test"
+    }
+  ]
+}

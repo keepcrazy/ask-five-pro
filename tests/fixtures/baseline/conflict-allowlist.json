@@ -1,0 +1,29 @@
+{
+  "source": "openspec/changes/refactor-ask-five-pro/design.md",
+  "decisions": [
+    {"id": 1, "topic": "duplicate registries", "result": "keep brain-crew/expert-registry.json only"},
+    {"id": 2, "topic": "legacy registry compatibility", "result": "delete old file, backup, redirects and wrappers"},
+    {"id": 3, "topic": "expert identifiers", "result": "machine id, skill/frontmatter name and display name remain distinct"},
+    {"id": 4, "topic": "missing default_enabled", "result": "set five missing values to false"},
+    {"id": 5, "topic": "bundled field", "result": "remove from the registry without editing expert source files"},
+    {"id": 6, "topic": "root matching entrypoint", "result": "keep scripts/match-experts.py"},
+    {"id": 7, "topic": "query scoring copy", "result": "keep public functions and use a thin adapter"},
+    {"id": 8, "topic": "matching baseline", "result": "use the mainline match-experts behavior"},
+    {"id": 9, "topic": "category aliases", "result": "only team-organization, technology-engineering and risk-risk-control bidirectional aliases"},
+    {"id": 10, "topic": "turbo", "result": "query batch marker only, never a meeting mode"},
+    {"id": 11, "topic": "sensitive experts", "result": "exclude by default; allow explicit naming or debate mode"},
+    {"id": 12, "topic": "roster interaction owner", "result": "root Skill and host model"},
+    {"id": 13, "topic": "panel below three", "result": "root Skill requests category confirmation"},
+    {"id": 14, "topic": "empty or corrupt registry", "result": "stop as installation error; no onboarding"},
+    {"id": 15, "topic": "programmatic depth default", "result": "Flash must be explicit; otherwise Pro; high stakes force Pro"},
+    {"id": 16, "topic": "required confirmation", "result": "do not continue before confirmation; rejection means modify or cancel"},
+    {"id": 17, "topic": "persona failure", "result": "single fallback with disclosure; all Pro failures pause for confirmation"},
+    {"id": 18, "topic": "boundary multiple matches", "result": "fixed scan order and first hit; no merge or strictest-result aggregation"},
+    {"id": 19, "topic": "mode-only output wording", "result": "seven-part outer contract remains for every mode"},
+    {"id": 20, "topic": "obsolete output rules", "result": "remove old output modes, Phase 5 artifact confirmation and mandatory discussion container"},
+    {"id": 21, "topic": "debate rounds", "result": "two to three rounds with mutual recognition in closing"},
+    {"id": 22, "topic": "tempering critic", "result": "critic must differ from initial experts"},
+    {"id": 23, "topic": "organizer authority", "result": "may synthesize and compare arguments, but no independent expert stance or user decision"},
+    {"id": 24, "topic": "root skill enablement", "result": "keep default-enabled false and align documentation"}
+  ]
+}
