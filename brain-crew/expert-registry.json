@@ -585,7 +585,7 @@
         "利益交换",
         "舆论操控"
       ],
-      "sensitivity": "sensitive"
+      "sensitivity": "normal"
     },
     {
       "id": "zhang-xuefeng",
@@ -609,7 +609,7 @@
         "实用主义",
         "情绪触发"
       ],
-      "sensitivity": "sensitive"
+      "sensitivity": "normal"
     },
     {
       "id": "darwin",

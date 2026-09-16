@@ -40,16 +40,19 @@ PUBLIC_SCORE_FIELDS = (
 
 
 def public_score(item: dict) -> dict:
+    """只保留允许通过 CLI 对外返回的专家评分字段。"""
     return {key: item.get(key) for key in PUBLIC_SCORE_FIELDS}
 
 
 def comma_list(value: str | None) -> list[str]:
+    """把逗号分隔的命令行参数转换为已去除空白的非空字符串列表。"""
     if not value:
         return []
     return [item.strip() for item in value.split(",") if item.strip()]
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """创建并配置专家匹配命令行参数解析器。"""
     parser = argparse.ArgumentParser(description="Ask Five Pro expert matching")
     parser.add_argument("--registry", required=True, help="Path to expert-registry.json")
     parser.add_argument("--topic", required=True, help="Topic text")
@@ -75,6 +78,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    """执行参数解析、专家匹配和 JSON 结果输出，并返回进程退出码。"""
     args = build_parser().parse_args()
     try:
         registry = load_registry_file(args.registry)
