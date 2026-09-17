@@ -1,0 +1,4 @@
+# Development and planning files excluded from ClawHub releases.
+/.agents/
+/openspec/
+/README.md
