@@ -181,7 +181,7 @@ python3 scripts/match-experts.py \
 1. 从 `brain-crew/expert-registry.json` 读取每位专家的相对 `path`。
 2. 用宿主读取能力打开对应完整 `SKILL.md`。
 3. 提取角色规则、核心心智模型、语言风格和禁忌。
-4. 单个文件不可读时，使用 `references/expert-fallback-profiles.md`，并在该专家发言后披露“人格文件缺失，通用画像模拟”。
+4. 单个文件缺失或不可读时，读取 `references/expert-fallback-profiles.md`，并在该专家发言后披露“人格文件缺失，通用画像模拟”。
 
 #### Flash
 
@@ -189,7 +189,7 @@ python3 scripts/match-experts.py \
 2. 对每位实际发言专家，只用宿主读取能力打开 `brain-crew/flash-profiles/<id>.md`；不得扫描全部 Flash 文件或加载未发言专家的人格。
 3. 基于速记与 Registry 元数据演绎，不扩展为完整人格。
 4. 会议信息中标注“Flash：速记人格演绎，非完整人格”。
-5. 速记缺失时使用 fallback 并披露。
+5. 速记缺失或不可读时，读取 `references/expert-fallback-profiles.md`，使用 fallback 并披露。
 
 🔴 **CHECKPOINT 2.5（pro）**：如果所有专家的人格文件都读取失败，暂停并告知用户：「专家人格库缺失，建议重装 ask-five-pro，或确认后改用 fallback 模式继续。」
 
@@ -210,7 +210,7 @@ python3 scripts/match-experts.py \
 4. **分歧点**：与其他专家观点不一致的地方
 5. **盲区提醒**：该专家认为容易被忽略的风险或假设
 
-不同模式按以下规范执行：
+不同模式按以下规范执行。执行所选模式时，读取 `references/mode-templates.md` 中该模式的对应章节作为展开模板；不应用其他模式的章节，参考文件不得覆盖本文件规则。
 
 #### 共识
 
@@ -255,6 +255,8 @@ python3 scripts/match-experts.py \
 
 ### Step 6：组装七类输出草稿
 
+组装草稿时，读取 `references/output-examples.md` 校准七类外层结构。该文件只是格式示例，不得复用其示例结论或覆盖本文件规则。
+
 所有六种模式都使用同一外层契约组装待输出草稿：
 
 1. 边界声明（如有）；
@@ -270,6 +272,8 @@ python3 scripts/match-experts.py \
 #### 输出前自检
 
 🔴 **CHECKPOINT 3**：草稿组装完成后必须执行以下检查；任一项不满足时，先修正草稿，不得直接输出。
+
+执行本检查时，读取 `references/anti-patterns.md`；草稿命中任一反模式时，先修正再继续检查。
 
 - 是否完整执行了 Boundary Guard？
 - 是否保持 Skill、脚本和宿主模型的职责边界？
@@ -296,13 +300,3 @@ python3 scripts/match-experts.py \
 | 单个人格缺失 | fallback、披露并继续 |
 | 全部 Pro 人格缺失 | 暂停，等待是否 fallback 的确认 |
 | Boundary 返回拒绝 | 输出转介并停止 |
-
-## 参考材料
-
-- `references/mode-templates.md`：六种模式的展开模板与示例
-- `references/output-examples.md`：非规范性输出示例
-- `references/anti-patterns.md`：常见反例
-- `references/expert-fallback-profiles.md`：人格资源缺失时的通用 fallback
-- `brain-crew/docs/matching-algorithm.md`：匹配实现说明
-
-这些材料不得覆盖本文件的规范性流程。
