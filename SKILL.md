@@ -2,7 +2,7 @@
 id: ask-five-pro
 name: ask-five-pro
 displayName: Ask Five Pro
-version: 2.3.0
+version: 3.0.0
 category: 04_workflow-automation
 owner: NicoZhuang
 author: NicoZhuang
@@ -24,18 +24,16 @@ triggers:
 - 陪审团
 - 淬火
 lastUpdated: '2026-09-16'
-projects:
-- xmade
 platforms:
-- hana
+- openhanako
 - codex
+- Hermes
 tags:
 - skill
 - ask-five
 - expert-panel
 - decision-support
 - workflow
-default-enabled: false
 ---
 
 # Ask Five Pro
