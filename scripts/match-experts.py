@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Ask Five Pro expert matching CLI.
 
-The root Skill keeps calling this entrypoint. Business scoring lives in the
-shared Brain Crew matching module so the CLI and Query API cannot drift.
+The root Skill calls this entrypoint while the shared Brain Crew module owns
+the matching rules.
 """
 
 from __future__ import annotations
@@ -68,7 +68,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--panel-size", type=int, help="Override target panel size")
     parser.add_argument(
         "--include",
-        help="Comma-separated explicitly named expert ids; enables named sensitive experts",
+        help="Comma-separated explicitly named expert ids forced into the selected panel",
     )
     parser.add_argument(
         "--exclude",
