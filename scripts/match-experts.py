@@ -54,7 +54,11 @@ def comma_list(value: str | None) -> list[str]:
 def build_parser() -> argparse.ArgumentParser:
     """创建并配置专家匹配命令行参数解析器。"""
     parser = argparse.ArgumentParser(description="Ask Five Pro expert matching")
-    parser.add_argument("--registry", required=True, help="Path to expert-registry.json")
+    parser.add_argument(
+        "--registry",
+        required=True,
+        help="Path to expert-registry.json; relative paths use the Skill root",
+    )
     parser.add_argument("--topic", required=True, help="Topic text")
     parser.add_argument(
         "--mode",
@@ -81,7 +85,10 @@ def main() -> int:
     """执行参数解析、专家匹配和 JSON 结果输出，并返回进程退出码。"""
     args = build_parser().parse_args()
     try:
-        registry = load_registry_file(args.registry)
+        registry_path = Path(args.registry)
+        if not registry_path.is_absolute():
+            registry_path = ROOT / registry_path
+        registry = load_registry_file(registry_path)
         categories = (
             comma_list(args.categories)
             if args.categories

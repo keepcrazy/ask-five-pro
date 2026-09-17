@@ -242,7 +242,7 @@ def compute_scores(
         tag_matches = sum(1 for tag in topic_tags if tag in topic)
         tag_score = tag_matches / max(len(topic_tags), 1)
         style_matches = len(set(style) & set(preferred_styles))
-        style_score = style_matches / max(len(preferred_styles), 1)
+        style_score = style_matches / max(len(style), 1)
 
         mode_tag_bonus = 0.0
         if mode in MODE_EXTRA_TAGS:
