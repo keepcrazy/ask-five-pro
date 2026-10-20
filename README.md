@@ -4,6 +4,10 @@ Ask Five Pro 是一个开箱即用的专家议会 Skill。它从 40 位跨领域
 
 它是思维与决策辅助工具，不替用户作最终决定，也不替代医生、律师、投资顾问或危机干预人员。
 
+## 版本与维护
+
+本仓库是 Ask Five Pro 当前维护入口。[早期 Ask Five Skill](https://github.com/nico-zhuang/ask-five-skill) 与[个人版 Ask Five Pro](https://github.com/nico-zhuang/ask-five-pro) 已归档，仅供查阅历史版本；新安装和后续更新以本仓库为准。
+
 ## 核心能力
 
 - 内置 40 位专家、5 个专家包，无需额外安装专家库。
